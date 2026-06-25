@@ -37,7 +37,6 @@ Fábrica de software e empresa de IA sediada em Maricá, RJ. Produtos próprios:
 
 - **AtendIA** — Atendimento inteligente via WhatsApp com IA e LLM. Empresa verificada Meta.
 - **Escala Trabalho** — Gestão de escalas, permutas e folgas de colaboradores.
-- **Sistema Lotus** — PDV e retaguarda para varejo.
 
 Stack: .NET 8, PostgreSQL, Redis, Qdrant, React 18, Gemini 2.0-flash, RAG, SignalR.
 
