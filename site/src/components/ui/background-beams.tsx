@@ -38,25 +38,25 @@ export function BackgroundBeams({
         preserveAspectRatio="xMidYMid slice"
         fill="none"
       >
+        <defs>
+          <linearGradient id="beam-grad" x1="0" y1="0" x2="0" y2="1">
+            <stop stopColor={color} stopOpacity="0" />
+            <stop offset="0.5" stopColor={color} stopOpacity="0.9" />
+            <stop offset="1" stopColor={color} stopOpacity="0" />
+          </linearGradient>
+        </defs>
         {beams.map((b, i) => (
           <g key={i}>
             <path d={b.d} stroke="rgba(255,255,255,0.04)" strokeWidth="1" />
             <motion.path
               d={b.d}
-              stroke={`url(#beam-grad-${i})`}
+              stroke="url(#beam-grad)"
               strokeWidth="1.6"
               strokeLinecap="round"
               initial={{ pathLength: 0.08, pathOffset: -0.1 }}
               animate={{ pathOffset: [-0.1, 1.1] }}
               transition={{ duration: b.dur, delay: b.delay, repeat: Infinity, ease: "linear" }}
             />
-            <defs>
-              <linearGradient id={`beam-grad-${i}`} x1="0" y1="0" x2="0" y2="1">
-                <stop stopColor={color} stopOpacity="0" />
-                <stop offset="0.5" stopColor={color} stopOpacity="0.9" />
-                <stop offset="1" stopColor={color} stopOpacity="0" />
-              </linearGradient>
-            </defs>
           </g>
         ))}
       </svg>

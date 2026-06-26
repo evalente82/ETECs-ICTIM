@@ -19,7 +19,8 @@ export function SplitText({
   return (
     <span className={cn("inline", className)} aria-label={text}>
       {words.map((word, i) => (
-        <span key={i} className="inline-block overflow-hidden align-bottom">
+        <span key={i}>
+          <span className="inline-block overflow-hidden align-bottom">
           <motion.span
             className="inline-block"
             initial={{ y: "110%", opacity: 0 }}
@@ -31,8 +32,9 @@ export function SplitText({
             }}
           >
             {word}
-            {i < words.length - 1 ? " " : ""}
-          </motion.span>
+            </motion.span>
+          </span>
+          {i < words.length - 1 ? " " : ""}
         </span>
       ))}
     </span>
