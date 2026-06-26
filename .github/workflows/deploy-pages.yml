@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - claude/etecs-ictim-repo-setup-j2qdx1
     paths:
       - "site/**"
       - ".github/workflows/deploy-pages.yml"
