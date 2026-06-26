@@ -1,6 +1,8 @@
 # ETECs-ICTIM
 ### Propostas de Encomendas Tecnológicas em IA e LLM para o Instituto de Ciência, Tecnologia e Inovação de Maricá
 
+🌐 **Apresentação interativa:** [evalente82.github.io/ETECs-ICTIM](https://evalente82.github.io/ETECs-ICTIM/) — site navegável com organograma do ecossistema e identidade visual por proposta. Código em [`/site`](./site/).
+
 > **Proponente:** Endrigo Valente — Fundador & CEO, VCorp Sistem  
 > **Contato direto:** (21) 99359-3760 | endrigo@vcorpsistem.com | endrigo.valente@gmail.com  
 > **CNPJ:** 28.988.813/0001-50  
@@ -55,6 +57,11 @@ ETECs-ICTIM/
 │   └── README.md
 ├── ETEC-03-Parque-Tecnologico-IA/
 │   └── README.md
-└── docs/
-    └── marco-legal-etec.md
+├── docs/
+│   └── marco-legal-etec.md
+├── site/                       # apresentação web (React + Vite + Tailwind)
+│   ├── src/
+│   └── ...
+└── .github/workflows/
+    └── deploy-pages.yml        # deploy automático no GitHub Pages
 ```
