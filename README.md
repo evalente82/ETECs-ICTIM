@@ -2,10 +2,11 @@
 ### Propostas de Encomendas Tecnológicas em IA e LLM para o Instituto de Ciência, Tecnologia e Inovação de Maricá
 
 > **Proponente:** Endrigo Valente — Fundador & CEO, VCorp Sistem  
+> **Contato direto:** (21) 99359-3760 | endrigo@vcorpsistem.com | endrigo.valente@gmail.com  
 > **CNPJ:** 28.988.813/0001-50  
 > **Site:** [vcorpsistem.com](https://vcorpsistem.com)  
 > **LinkedIn:** [linkedin.com/in/endrigo-valente-3357a635](https://www.linkedin.com/in/endrigo-valente-3357a635/)  
-> **Contato:** (21) 99029-7098 | contato@vcorpsistem.com
+> **Comercial (AtendIA):** (21) 99029-7098 | contato@vcorpsistem.com
 
 ## Sobre este repositório
 
