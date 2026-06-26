@@ -18,6 +18,7 @@ import { SplitText } from "@/components/ui/text-effects";
 import { Reveal, StaggerGroup, StaggerItem } from "@/components/ui/reveal";
 import { Eyebrow, SectionHeading, Pill } from "@/components/Bits";
 import { ScrollProgress } from "@/components/ScrollUtils";
+import { VersionToggle } from "@/components/VersionToggle";
 import { PROJECTS, PROJECTS_BY_SLUG } from "@/data/projects";
 
 export default function ProjectPage() {
@@ -35,6 +36,7 @@ export default function ProjectPage() {
   return (
     <div className="overflow-hidden">
       <ScrollProgress color={t.primary} />
+      <VersionToggle mode="fast" slug={project.slug} color={t.primary} />
 
       {/* ============== HERO ============== */}
       <section className="relative flex min-h-[88svh] items-center pt-28">
